@@ -1,0 +1,7 @@
+function main() {
+    var oldPrice = parseInt(readLine(), 10);
+    var discount = ((oldPrice * 20) / 100);
+    var newPrice = (oldPrice - discount);
+    console.log(newPrice)
+    
+}
